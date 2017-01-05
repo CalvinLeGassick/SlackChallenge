@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Slack Challenge</title>
+        <link rel="stylesheet" type="text/css" href={{url_for('static',filename = 'css/style.css') }}>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src={{url_for('static',filename = 'js/script.js') }}></script>
+    </head>
+    <body>
+        <div class = 'top-element'>
+            <div class = 'get-url'>
+                <form>
+                    <input class = 'url-input' type="text" name="url" value= "http://www." autocomplete="off" onblur='onBlur(this)' onfocus='onFocus(this)'/>
+                </form>
+            </div>
+
+            <div class = 'slack-challenge'>
+                <div>
+                    <img class = 'slack-image' src = {{url_for('static',filename ='img/slack.png') }}>
+                    <div class = 'slack-challenge-text'>Slack Challenge</div>
+                </div>
+            </div>
+            <!-- <div class = 'grey-bar'></div> -->
+        </div>
+
+        <div style = 'min-width: 530px;'>
+            <div class = 'left-half'>
+                <div class = 'tag-container'>
+                    <table class = 'tag-list'>
+                        
+                    </table>
+                </div>
+            </div>
+            <div class = 'right-half'>
+                <div class = 'source-viewer'></div>
+            </div>
+        </div>
+
+    </body>
+</html>

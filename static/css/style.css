@@ -1,0 +1,167 @@
+html {
+    font-family: Lato, Arial;
+}
+
+body {
+    margin: 0;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.top-element {
+    width:100%;
+    height: 170px;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    background-color: white;
+
+    text-align: center;
+}
+
+.get-url {
+    width: 80%;
+    height: 40px;
+    margin-top: 50px;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    display: inline-block;
+}
+
+.url-input {
+    width: 100%;
+    text-align: center;
+    border-width: 0;
+    outline: none;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 8px;
+}
+
+.slack-challenge {
+    text-align: center;
+}
+
+.slack-image {
+    height: 70px;
+    width: auto;
+    display: inline;
+    vertical-align: middle;
+}
+
+.slack-challenge-text {
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: middle
+}
+
+.grey-bar {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.left-half {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    height: 550px;
+    padding: 0px;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    border-color: 0, 0, rgba(0, 0, 0, .2), 0;
+    border-style: solid;
+    border-width: 1px;
+
+    background-color: #4d394b;
+    z-index: -10;
+}
+
+.tag-container
+{
+    width: 80%;
+    margin-left:10%;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.right-half {
+    display: inline-block;
+    text-align: center;
+    width: 54%;
+    height: 550px;
+    padding: 0px;
+}
+
+.source-viewer
+{
+    display: inline-block;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 3px;
+    background-color: rgba(150, 150, 150, .1);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+
+    width: 94%;
+    height: 530px;
+
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.one-tag {
+    padding: 10px;
+}
+
+.tag-count:hover {
+    cursor: pointer;
+}
+
+.tag-button:hover {
+    cursor: pointer;
+}
+
+.tag-list {
+    width: 80%;
+}
+
+.tag-button {
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+.tag-count {
+    display: table-cell;
+    color:white;
+    width: 45px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.start, .end {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.source-viewer * {
+    margin-left: 10px;
+}
+
+.content {
+    margin-left: 60px;
+}
